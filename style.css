@@ -1,0 +1,170 @@
+html {
+    box-sizing: border-box;
+    background-color: #031b28   ;
+    font-family: 'Fira Sans Condensed', sans-serif, "Times New Roman";
+    font-size: 30px;
+    text-align: center;
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: top;
+}
+
+h1 {
+    border-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #8c0e0f;
+    color: #c9a959;
+    width: 500px;
+}   
+
+#textInput {
+    height: 23px;
+    border: none;
+}
+
+.postButton {
+    background-color: #dba858;
+    color: white;
+    border: none;
+    height: 25px;
+    width: 50px;
+    transition-duration: 0.4s;
+    margin-left: 7px;
+    margin-bottom: 50px;
+}
+
+.postButton:hover {
+    background-color: #fff; 
+    color: #dba858;
+}
+
+/* #e69c31 */
+.post {
+    border-radius: 10px;
+    background-color: white;
+    color: #e69c31; 
+    border: 20px;
+    border-color: #e69c31;  
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.paraContent {
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.deleteButton {
+    border: none;
+    background-color: #5c162e;
+    color: #b96b85;
+    transition-duration: 0.4s;
+}
+
+.deleteButton:hover {
+    background-color: #332a54;
+    color: #dba858;
+}
+
+.commentButton {
+    border: none;
+    background-color: #b96b85;
+    color: #feb9c6;
+    transition-duration: 0.4s;
+}
+
+.commentButton:hover {
+    background-color: #dcf0fa; 
+    color: #192841;
+}
+
+.comment {
+    background-color: #feb9c6;
+    color: #634028;
+    border-radius: 10px;
+    margin: auto;
+    width: 90%;
+    word-wrap: break-word;
+}
+
+.deleteCommentButton {
+    border: none;
+    background-color: #5c162e;
+    color: #b96b85;
+    transition-duration: 0.4s;
+}
+
+.deleteCommentButton:hover {
+    background-color: #332a54;
+    color: #dba858;
+}
+
+#commentText {
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        width: 300px;
+    }
+}
+
+.modal {
+    display: none; /* Hidden by default  */
+    position: fixed; /* Stay in place  */
+    z-index: 1; /* Sit on top  */
+    padding-top: 250px; /* Location of the box  */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width  */
+    height: 70%; /* Full height  */
+    overflow: auto; /* Enable scroll if needed  */
+}
+
+/* Modal Content  */
+.modal-content {
+    background-color: #fffdcb;
+    margin: auto;
+    padding: 20px;
+    border: 5px solid #addfac;
+    width: 50%;
+}
+
+.modalButton {
+    border: none;
+    background-color: #184d47;
+    color: #a5f0c5;
+    transition-duration: 0.4s;
+    margin-left: 7px;
+}
+
+.modalButton:hover {
+    background-color: #3c162e; 
+    color: #dab600;
+}
+
+#commentInput {
+    border: 1px solid #000000;
+}
+
+/* The Close Button  */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+} 
